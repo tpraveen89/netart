@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet"
 
 var PageTemplate = props => {
   const page = props.pageContext.pagedata
-  console.log(props)
+
   /*useEffect(() => {
     console.log("didmount")
     /*var script = document.createElement("script")

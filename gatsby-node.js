@@ -87,7 +87,7 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `/clients/${edge.node.slug}/`,
       component: slash(postTemplate),
       context: {
-        id: edge.node.id,
+        pagedata: edge.node,
       },
     })
   })

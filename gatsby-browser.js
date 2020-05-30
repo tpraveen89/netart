@@ -8,8 +8,5 @@
 const $ = require("jquery")
 
 export const onInitialClientRender = () => {
-  console.log("ok")
-  $(document).ready(function () {
-    console.log("from gatsby browser")
-  })
+  $(document).ready(function () {})
 }
